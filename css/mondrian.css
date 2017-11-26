@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+  Custom CSS for Mondrian Exercise - Lab 4
+*/
+body {
+  background: #000;
+  color: #000;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  height: auto;
+  padding-bottom: 20px;
+}
+.red { background-color: #F30;}
+.black { background-color: #000;}
+.white { background-color: #FFF;}
+.yellow { background-color: #FF0;}
+.blue { background-color: #33F;}
+.green { background-color: #6C3;}
+.orange { background-color: #F90;}
+/*.seagreen { background-color: LightSeaGreen;}*/
+.seagreen { background-color: lightseagreen;}
+.color1 {background-color: black;}
+.color2 {background-color: #0C2538;}
+.color3 {background-color: #2B434F;}
+.color4 {background-color: #638270;}
+.color5 {background-color: #BCC98E;}
+.color6 {background-color: #EDE059;}
+.color7 {background-color: white;}
+
+.borders { border-right: 4px solid black;
+			border-left: 4px solid black;
+}
+.w1borders { border-right: 4px solid white;
+			border-left: 4px solid black;
+}
+.w2borders { border-right: 4px solid black;
+			border-left: 4px solid white;
+}
+.tall_115 { height: 115px;
+ margin-top: 10px;
+}
+
+.tall_115_top_inner { height: 115px;
+}
+.tall_100 { height: 100px;
+}
+
+.tall_100_top_inner { height: 100px;
+ margin-top: 10px;
+}
+.tall_120 { height: 120px;
+			margin-top: 20px; }
+.tall_60 { 	height: 50px;
+			margin-top: 20px;
+   margin-bottom: 10px;}
+.tall_60_top_inner { height: 60px;}
+
+.tall_155 { height: 145px;
+			margin-top: 10px; }
+.tall_155_top_inner { height: 145px;}
+.tall_175 { height: 175px;
+			margin-top: 10px; }
+.tall_310 { height: 310px;
+			margin-top: 10px; }
+.tall_230 { height: 215px;
+                  margin-top: 10px;}
+.tall_231 { height: 230px;
+margin-top: 10px; }
+
+.tall_475 {height: 475px;}
+.tall_215 { height: 205px;
+            margin-top: 10px;}
+.tall_215_top_inner { height: 215px;
+}
+.tall_430 { height: 430px;
+			margin-top: 10px;}
+.tall_370 {
+  height: 370px;
+  margin-top: 10px;
+}
+.tall_620 { height: 620px;
+			margin-top: 10px;}
+
+.tall_645 {
+  height: 645px;
+  margin-top: 10px;
+}
+.tall_1075 {
+  height: 1075px;
+  margin-top: 10px;
+}
+.tall_432 { height: 432px;
+			margin-top: 10px;}
+.tall_108 { height: 108px;
+      			margin-top: 10px;}
+.tall_90 { height: 90px;
+      	margin-top: 10px;}
+       .tall_569 { height: 569px;
+             	margin-top: 10px;}
+#nav li {
+  display: inline;
+            }
+#nav ul {
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial;
+}
+.top {
+  font-family: Arial;
+  font-size: 17px;
+}
+.bottom {
+  font-family: Arial;
+  font-size: 13px;
+}
+.footer {
+  font-size: 10px;
+  font-family: Arial;
+  text-align: left;
+}
+.footer2 {
+  font-size: 10px;
+  font-family: Arial;
+  text-align: right;
+}
